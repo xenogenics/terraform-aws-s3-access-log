@@ -22,7 +22,7 @@ variable "tags" {
 }
 
 variable "lifecycle_rule_enabled" {
-  default     = true
+  default     = "Enabled"
   type        = string
   description = "Specifies lifecycle rule status."
 }
